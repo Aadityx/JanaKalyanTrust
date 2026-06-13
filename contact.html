@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Contact Jan Kalyan Trust — reach us for donations, volunteering, partnerships, or general inquiries. We'd love to hear from you.">
+  <title>Contact Us | Jan Kalyan Trust</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">
+        <div class="navbar__logo-icon">JK</div>Jan Kalyan <span>Trust</span>
+      </a>
+      <div class="navbar__links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a>
+        <a href="boarding.html">Boarding</a><a href="agrofarm.html">Agro Farm</a><a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a><a href="stories.html">Stories</a><a href="getinvolved.html">Get Involved</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a href="getinvolved.html" class="btn btn--primary btn--sm navbar__cta">Donate Now</a>
+      <div class="hamburger" aria-label="Menu"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+  <div class="mobile-overlay"></div>
+  <div class="mobile-nav">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a>
+    <a href="boarding.html">Boarding</a><a href="agrofarm.html">Agro Farm</a><a href="products.html">Products</a>
+    <a href="gallery.html">Gallery</a><a href="stories.html">Stories</a><a href="getinvolved.html">Get Involved</a>
+    <a href="contact.html">Contact</a>
+    <a href="getinvolved.html" class="btn btn--primary" style="margin-top:0.5rem;">Donate Now</a>
+  </div>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you. Reach out for inquiries, partnerships, or just to say hello.</p>
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contact Us</div>
+    </div>
+  </section>
+
+  <!-- Contact Info Cards -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-3 reveal">
+        <div class="card initiative-card">
+          <div class="card__icon" style="background:#DBEAFE;color:#2563EB;"><i class="fas fa-map-marker-alt"></i></div>
+          <h3 class="card__title">Visit Us</h3>
+          <p class="card__text mb-0">Jan Kalyan Trust,<br>Mahad Taluka, Raigad District,<br>Maharashtra 402301, India
+          </p>
+        </div>
+        <div class="card initiative-card">
+          <div class="card__icon" style="background:#D1FAE5;color:#059669;"><i class="fas fa-phone-alt"></i></div>
+          <h3 class="card__title">Call Us</h3>
+          <p class="card__text mb-0">+91 9307140356<br>Mon–Sat, 9 AM – 6 PM</p>
+        </div>
+        <div class="card initiative-card">
+          <div class="card__icon" style="background:#FEF3C7;color:#D97706;"><i class="fas fa-envelope"></i></div>
+          <h3 class="card__title">Email Us</h3>
+          <p class="card__text mb-0">jankalyantrust@hotmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form + Map -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="grid-2 reveal">
+        <!-- Contact Form -->
+        <div class="card" style="padding:var(--space-2xl);">
+          <h2 style="margin-bottom:var(--space-sm);">Send Us a Message</h2>
+          <p style="margin-bottom:var(--space-xl);">Fill out the form below and we'll get back to you within 24–48
+            hours.</p>
+          <form data-validate id="contact-form">
+            <div class="form-group">
+              <label for="contact-name">Full Name *</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="Your full name" required>
+              <span class="error-message">Please enter your name.</span>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email Address *</label>
+              <input type="email" id="contact-email" class="form-control" placeholder="your@email.com" required>
+              <span class="error-message">Please enter a valid email address.</span>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject *</label>
+              <select id="contact-subject" class="form-control" required>
+                <option value="">Select a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="donation">Donation & Sponsorship</option>
+                <option value="volunteer">Volunteering</option>
+                <option value="csr">CSR Partnership</option>
+                <option value="products">Product Inquiry</option>
+                <option value="media">Media & Press</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="error-message">Please select a subject.</span>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message *</label>
+              <textarea id="contact-message" class="form-control" rows="5" placeholder="How can we help you?"
+                required></textarea>
+              <span class="error-message">Please enter your message.</span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg" style="width:100%;justify-content:center;">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+
+        <!-- Map -->
+        <div>
+          <div class="map-placeholder" style="margin-bottom:var(--space-xl);">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60579.86940048895!2d73.3955!3d18.0833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be860b0e38c6f6b%3A0x8b4b1b529e14e02a!2sMahad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="Jan Kalyan Trust Location">
+            </iframe>
+          </div>
+          <div class="card" style="padding:var(--space-xl);">
+            <h3 style="margin-bottom:var(--space-md);">Connect on Social Media</h3>
+            <p>Follow us for the latest updates, stories, and events from the field.</p>
+            <div class="footer__social" style="margin-top:var(--space-md);">
+              <a href="#" aria-label="Facebook" style="background:var(--clr-primary-pale);color:var(--clr-primary);"><i
+                  class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram" style="background:var(--clr-primary-pale);color:var(--clr-primary);"><i
+                  class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Twitter" style="background:var(--clr-primary-pale);color:var(--clr-primary);"><i
+                  class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="YouTube" style="background:var(--clr-primary-pale);color:var(--clr-primary);"><i
+                  class="fab fa-youtube"></i></a>
+              <a href="#" aria-label="LinkedIn" style="background:var(--clr-primary-pale);color:var(--clr-primary);"><i
+                  class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">Jan Kalyan <span>Trust</span></div>
+          <p class="footer__desc">Empowering Kathkari tribal communities and underprivileged groups in Mahad Taluka,
+            Raigad District, through education, sustainable livelihoods, and holistic community development.
+          </p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram"><i
+                class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a><a href="#" aria-label="YouTube"><i
+                class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer__links"><a href="about.html">About Us</a><a href="programs.html">Programs</a><a
+              href="boarding.html">Boarding</a><a href="agrofarm.html">Agro Farm</a><a
+              href="products.html">Products</a><a href="gallery.html">Gallery</a></div>
+        </div>
+        <div>
+          <h4>Get Involved</h4>
+          <div class="footer__links"><a href="getinvolved.html">Donate</a><a
+              href="getinvolved.html#volunteer">Volunteer</a><a href="getinvolved.html#csr">CSR Partnership</a><a
+              href="stories.html">Impact Stories</a><a href="contact.html">Contact Us</a></div>
+        </div>
+        <div>
+          <h4>Contact Info</h4>
+          <div class="footer__contact-item"><i class="fas fa-map-marker-alt"></i><span>Jan Kalyan Trust, Mahad Taluka,
+              Raigad District, Maharashtra 402301</span></div>
+          <div class="footer__contact-item"><i class="fas fa-phone"></i><span>+91 9307140356</span></div>
+          <div class="footer__contact-item"><i class="fas fa-envelope"></i><span>jankalyantrust@hotmail.com</span></div>
+        </div>
+      </div>
+      <div class="footer__bottom">&copy; 2025 Jan Kalyan Trust. All Rights Reserved. | Made with ❤️ for tribal
+        communities</div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
