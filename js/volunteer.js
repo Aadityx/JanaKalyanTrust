@@ -1,3 +1,6 @@
+// Initialize EmailJS
+emailjs.init("uC6XtZ3KqAtCBzm0V");
+
 const volunteerForm = document.getElementById("volunteer-form");
 const volunteerStatus = document.getElementById("volunteer-status");
 
