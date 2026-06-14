@@ -1,5 +1,4 @@
 // Initialize EmailJS
-
 emailjs.init("uC6XtZ3KqAtCBzm0V");
 
 const form = document.getElementById("contact-form");
@@ -22,7 +21,7 @@ form.addEventListener("submit", async (e) => {
 
         await emailjs.sendForm(
             "service_rclnuxd",
-            "template_inj4qj5",
+            "template_57pd72g",
             form
         );
 
@@ -35,16 +34,10 @@ form.addEventListener("submit", async (e) => {
         form.reset();
 
     } catch (error) {
-
-        console.error(error);
-
-        status.innerHTML = `
-            <div class="error-message-box">
-                Something went wrong. Please try again later.
-            </div>
-        `;
-
-    }
+    console.log("FULL ERROR:", error);
+    console.log("STATUS:", error.status);
+    console.log("TEXT:", error.text);
+}
 
     button.disabled = false;
 
@@ -52,5 +45,4 @@ form.addEventListener("submit", async (e) => {
         <i class="fas fa-paper-plane"></i>
         Send Message
     `;
-
 });
