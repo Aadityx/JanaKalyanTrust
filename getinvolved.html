@@ -164,6 +164,7 @@
                 <textarea id="vol-message" name="message" class="form-control" rows="3"
                   placeholder="Tell us a little about yourself and your motivation..."></textarea>
               </div>
+               <div id="volunteer-status"></div>
               <button type="submit" class="btn btn--primary btn--lg" style="width:100%;justify-content:center;">Register
                 as Volunteer</button>
             </form>
@@ -271,18 +272,7 @@
 
   <button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
   <script src="js/main.js"></script>
-  <script>
-    // ============================================================
-    // EmailJS Initialization — Get Involved Page
-    // TODO: Replace the placeholders below with your actual keys
-    // from https://www.emailjs.com/
-    // ============================================================
-    (function () {
-      emailjs.init({
-        publicKey: 'YOUR_PUBLIC_KEY', // ← Paste your EmailJS Public Key here
-      });
-    })();
-  </script>
+  <script src="js/volunteer.js"></script>
 </body>
 
 </html>
