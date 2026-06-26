@@ -238,17 +238,16 @@ p { margin-bottom: var(--space-md); color: var(--clr-text-light); }
   color: var(--clr-primary-dark);
 }
 .navbar__logo span { color: var(--clr-accent); }
-.navbar__logo-icon {
-  width: 40px;
-  height: 40px;
-  background: var(--clr-primary);
-  color: var(--clr-white);
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.1rem;
-  font-weight: 700;
+.navbar__logo-img {
+  height: 52px;
+  width: 52px;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.92);
+  border: 2px solid rgba(0,0,0,0.06);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  padding: 2px;
 }
 .navbar__links {
   display: flex;
